@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../css/cart.css"/>
+		
+	</head>
+	<body>
+	<div id="header">
+	   <div class="header1">
+	       <div class="siteNav">
+	          <div class="siteNavCityChoose">
+	             <span class="title">
+	                                 我在深圳
+	             </span>
+	          </div>
+	          <div class="siteNavLogin">
+	              <a href="#" class="usn">zyyy</a>
+	                           欢迎来
+	               <font class="colore14041">e万家</font>！
+	               <a href="#" rel="nofollow">会员中心</a>
+	               <a href="#" rel="nofollow">退出</a>
+	          </div>
+	          <div class="siteNavEntry">
+                <a href="#" rel="nofollow">收藏夹</a>
+                <a href="#" rel="nofollow">我的订单</a>
+            </div>
+             
+	       </div>
+	       <div class="headerBody">
+	       <a href="#" target="_blank" class="headerLogo" ></a>
+	       <ul class="headerShoppingStep">
+                <li class="active">
+                    <div class="line"></div>
+                    <div class="radius">1</div>
+                    <span class="title">购物车</span>
+                </li>
+                <li>
+                    <div class="line"></div>
+                    <div class="radius">2</div>
+                    <span class="title">确认订单信息</span>
+                </li>
+                <li>
+                    <div class="line"></div>
+                    <div class="radius">3</div>
+                    <span class="title">提交订单</span>
+                </li>
+            </ul>
+	       </div>
+	       
+	   </div>
+	
+	</div>
+	<div id="buyflowCart" class="container">
+		<div class="page" id="cartsPage">
+			<div class="slide"></div>
+			<div class="backededed">
+				<div class="center product">
+					<div class="mani_cat_but">
+					  <span class="title">购物车</span>
+					  <a class="but" href="page.html">继续购物 &gt;</a>
+					</div>
+					
+					<div class="datles_table">
+					    <div class="delivery" data-bind="visible:!readOnly()">
+							<span class="totalAmount">全部商品<span data-bind="text:totalProductNumber()">2</span>件</span>
+						</div>
+						<div class="th">
+							<div class="ld1">
+								<div class="checkbox enableSelect active" data-bind="css:{active:allChecked},click:toggle,visible:!readOnly()">
+								<input class="allchecked" type="checkbox"/>
+								</div><!--ko if:!readOnly()-->全选<!-- /ko -->&nbsp;
+								</div>
+								<div class="ld2">
+								商品
+								</div>
+								<div class="ld3">
+								规格属性
+								</div>
+								<div class="ld4">
+								单价(元)
+								</div>
+								<div class="ld6">
+								数量
+								</div>
+								<div class="ld7">
+								商品小计(元)
+								</div>
+								<div class="ld8" data-bind="visible:!readOnly()">
+								操作
+							</div>
+						</div>
+				        <ul id="th1">
+						
+						<!--<li data-bind="visible:!($parents[1].readOnly() &amp;&amp; !checked()),css:{active:checked() &amp;&amp; !$parents[1].readOnly()}" class="active">
+							<div class="ld1">
+							<div class="checkbox enableSelect active" data-bind="css:{active:checked},click:toggle, visible:!$parents[1].readOnly()">
+							<input type="hidden">
+							<i></i>
+							</div>
+							<div class="img_view">
+							<img data-bind="attr:{src:icon}" src="http://image2.ewj.com/2016/4/7/12591230_90X90.jpg">
+							</div>
+							</div>
+							<div class="ld2">
+							<a data-bind="text:productName,click:$parents[1].toDetail">【全国配送】小熊（Bear）JSQ-A50M2加湿器</a>
+							</div>
+							<div class="ld3">
+							<span data-bind="text:attrsString"></span>
+							</div>
+							<div class="ld4" data-bind="text:'¥'+unitPrice()">¥139</div>
+							<div class="ld6">
+							<span class="midde">
+							<a class="less" data-bind="click:$root.minus,visible:!$parents[1].readOnly()"></a>
+							<input class="quantity_txt" data-bind="value:acceptedNumber"value="1">
+							<a class="add" data-bind="click:$root.add,visible:!$parents[1].readOnly()"></a>
+							<br>
+							<span class="canDelivery" data-bind="css:{active:!canDelivery}">
+							
+							</span>
+							</span>
+							</div>
+							<div class="ld7">
+							<span class="font18" data-bind="text:'¥'+totalPayPrice()">¥139</span>
+							</div>
+							<div class="ld8" data-bind="visible:!$parents[1].readOnly()">
+							<span class="midde">
+							<a data-bind="click:$root.remove">删除</a>
+							<a data-bind="visible:excludeOtherOrderRule().length>0,click:chooseOrderRule" style="display: none;">修改优惠</a>
+							</span>
+							</div>
+							<div class="clear"></div>
+							<div class="giftWrap">
+							<div class="giftDiv" data-bind="visible:userFriendlyMessages().length>0,foreach:userFriendlyMessages" style="display: none;"></div>
+							
+							<div class="freePresents" data-bind="foreach:freePresents"></div>
+							<div class="lowPricePresent" data-bind="foreach:lowPricePresentRuleResults"></div>
+							
+							<div class="orderInclusiveRules" data-bind="foreach:orderInclusiveRules"></div>
+							</div>
+							
+							<div class="clear"></div>
+							</li>
+							-->
+						</ul>
+					</div>
+					<div class="clear"></div>
+					<div class="zongji">
+						<div class="total-price">总价：￥<b></b>元</div>
+						<a href="#" class="nowbuy">立即购买</a>
+					</div>
+					<div class="cartEmptyTips">
+						<img class="fl" src="../images/cart1.jpg" alt="">
+						<div class="info fl ml35 mt5">
+							<dl>
+								<dt class="f18 c_red">温馨提示！</dt>
+								<dd class="f14 mt5 c999">购物车内暂时没有您的商品</dd>
+								
+								
+							</dl>
+							<div class="btnGroup mt25">
+							
+							  <a class="btn btnDefault" href="/">继续购物</a>
+							</div>
+						</div>
+						<div class="clear"></div>
+					
+					</div>
+					
+				</div>
+			</div>
+		</div>
+    </div>
+    <div class="bottom-bottom">
+	    	    	<div class="bottom-left">
+	    	    		<a href="#" target="_blank">关于我们</a>
+	    	    		<span class="split">|</span>
+	    	    		<a href="#" target="_blank">联系我们</a>
+	    	    		<span class="split">|</span>
+	    	    		<a href="#" target="_blank">触屏版</a>
+	    	    	</div>
+	    	    	<span class="copyright">
+			            Copyright@华润万家有限公司&nbsp;&nbsp;粤ICP备05036369号-4&nbsp;&nbsp;&nbsp;ewj.com&nbsp;版权所有
+			        </span>
+	    	    </div>
+	</body>
+	<script src="../js/jquery-1.12.4.js"></script>
+   <script src="../js/jquery.cookie.js"></script>
+   <script src="../js/strOper.js"></script>
+   <script src="../js/cart.js"></script>
+</html>

@@ -1,0 +1,138 @@
+.product > .datles_table > .th{
+    background-color:#fff9f9
+}
+.merchantHeader{
+    background-color:#ffffff;
+    border-bottom: 1px solid #333333;
+    font-weight:normal
+}
+.merchantHeader .merchantName{
+    font-size:14px;
+    color:#333333
+}
+.product > .datles_table > .ll .active{
+    background-color:#fff9f9
+}
+.product > .datles_table > .ll > li {
+    margin-bottom:0;
+    border-bottom:1px solid #e4e4e4;
+    /*margin:0 0 0 70px;*/
+}
+.product > .datles_table > .ll{
+    border-bottom:0
+}
+.product > .jiesuan {
+    background-color: #fff;
+    float: left;
+    height: 74px;
+    /*line-height: 45px;*/
+    margin-bottom: 15px;
+    width: 100%;
+}
+.product > .jiesuan {
+    line-height: 30px;
+}
+.product  .jiesuan .float_r .quantity {
+    display: inline-block;
+    margin:10px 10px 0 40px;
+    font-size:14px;
+    text-align: right;
+}
+.product  .jiesuan .float_r .quantity .price {
+    font-style:normal;
+}
+.product > .jiesuan .bd {
+    border-right:1px solid #b6b6b6;
+    margin-right:20px;
+    padding-right:18px;
+    font-size: 14px;;
+}
+.product > .jiesuan .bd2 {
+    margin-right:20px;
+    padding-right:18px;
+    font-size: 14px;;
+}
+.product > .jiesuan .bd .selectNumber {
+    font-size: 18px;;
+}
+.product > .jiesuan .float_l {
+    padding-left: 25px;
+}
+.overNote{
+    margin-left: 28px;
+    display: inline-block;
+    position: relative;
+}
+
+.product > .jiesuan .pay {
+    background-color: #e14041;
+    color: #fff;
+    float: right;
+    font-size: 28px;
+    margin-left: 0px;
+    padding: 0 42px;
+    cursor:pointer;
+    height:74px;
+    line-height:74px;
+    -webkit-transition: all .25s;
+    -moz-transition: all .25s;
+    -ms-transition: all .25s;
+    -o-transition: all .25s;
+    transition: all .25s;
+}
+.product > .jiesuan .notPay {
+    background-color: #c5c5c5;
+    color: #fff;
+    float: right;
+    font-size: 28px;
+    margin-left: 0px;
+    padding: 0 42px;
+    cursor:pointer;
+    height:74px;
+    line-height:74px;
+    -webkit-transition: all .25s;
+    -moz-transition: all .25s;
+    -ms-transition: all .25s;
+    -o-transition: all .25s;
+    transition: all .25s;
+}
+.product > .datles_table > .ll .radio {
+    float: left;
+    margin: 35px 0 0 0;
+    vertical-align: baseline;
+    position: relative;
+    top: 2px;
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    line-height: 13px;
+    cursor: pointer;
+    background: #fff;
+}
+.product > .datles_table > .ll .radio i{
+     display: inline-block;
+     width: 100%;
+     height: 100%;
+     vertical-align: top!important;
+     /*border: 1px solid #cfcfcf;*/
+     /*border-radius: 2em;*/
+ }
+.product > .datles_table > .ll .radio.active i {
+    background: url("http://image2.ewj.com/2016/7/6/14290000.png") no-repeat center center;
+}
+.combinProductAmount{
+    font-size:14px;
+    color:#999999
+}
+.fb000a{
+    color:#fb000a
+}
+
+.canDelivery {
+    font-size: 12px;
+    color: #999999;
+    display: inline-block;
+}
+.canDelivery.active{
+    color: #fb000a;
+}  

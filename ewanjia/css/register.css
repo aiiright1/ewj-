@@ -1,0 +1,258 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0; padding:0;}
+body{font-size:12px; font-family: "微软雅黑","Arial Narrow";background: #F5F5F5;}
+a{text-decoration:none;} 
+ul,li{list-style:none;}
+img{border:0;} 
+.header {
+    background: url(loadImage.jsx?rurl=http://image2.ewj.com/2015/2/2/50394.png) repeat-x;
+    height: 124px;
+    box-shadow: 0 0 10px rgba(9, 2, 4, .12);
+    position: relative;
+    z-index: 100;
+}
+
+.header .center {
+    position: relative;
+    height: 180px;
+    z-index: 1000;
+}
+.headerBody {
+    display: inline-block;
+    left: 0;
+    padding-top: 3px;
+    width: 100%;
+    height: 99px;
+    position: relative;
+}
+
+.mt8 {
+    margin-top: 8px;
+}
+#Loginpage .headerLogo {
+    margin-top: 22px;
+}
+.headerLogo {
+    width: 341px;
+    height: 71px;
+    background: url(../images/logo.jpg) no-repeat 0 0;
+    float: left;
+}
+
+.headerBiaoyu {
+    float: right;
+    margin: 17px 100px 0 0;
+}
+
+
+.loginTopR {
+    color: #666;
+    font-size: 12px;
+}
+
+.mt30 {
+    margin-top: 30px;
+}
+.loginTopR span {
+    padding: 0 14px;
+}
+.loginTopR a {
+    color: #666;
+}
+.center {
+    width: 1190px;
+    margin: 0 auto;
+}
+.centertop{
+	margin-top: 40px;
+}
+.panelHd {
+    height: 45px;
+    line-height: 45px;
+    padding: 0 30px;
+    background: #fff;
+    position: relative;
+}
+.panelHd h1 {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+    font-weight: normal;
+}
+.panelHd .signin {
+    color: #e04040;
+    text-decoration: underline;
+    top: 0;
+    position: absolute;
+    right: 26px;
+}
+.float_r, .fr {
+    float: right;
+}
+.container{
+    padding: 35px 45px 45px 45px;
+    background: #fff url(loadImage.jsx?rurl=http://image2.ewj.com/2015/2/2/50432.png) repeat-x;
+}
+
+/*----------注册部分---------------*/
+.regsiter{
+	width: 400px;
+	margin: 0 auto;
+	padding-top:40px;
+	
+}
+input {
+    outline: none;
+    border: none;
+}
+.regsiter-box{
+	width:100%;
+	height:50px;
+	padding-bottom: 30px;
+}
+.regsiter-box .box{
+	width:100%;
+	height:50px;
+	border:1px solid #ccc;
+	color:#000;
+	line-height:50px;
+	text-indent:5px;
+	position: relative;
+}
+/*输入错误时box的样式*/
+.regsiter-box .box.error{
+	border-color:red;
+}
+.regsiter-box .box input{
+	width:200px;
+	font-size:16px;
+	padding-left:10px;
+}
+/*-----验证成功样式------*/
+.regsiter-box .box.right i{
+	display:inline-block;
+	width:20px;
+	height:20px;
+	background:url(../images/right.png);
+	position: absolute;
+	top: 50%;
+	margin-top:-10px;
+	right:10px;
+}
+/*---------提示信息样式---------*/
+.regsiter-box .tip{
+	width:100%;
+	line-height:30px;
+	font-size:12px;
+}
+/*隐藏时样式*/
+.regsiter-box .tip.hide{
+	display: none;
+}
+
+.regsiter-box .tip i{
+	display: inline-block;
+	width:20px;
+	height:20px;
+	vertical-align: middle;
+}
+.regsiter-box .tip span{
+	color:#CCCCCC;
+}
+/*----默认提示样式-----*/
+.regsiter-box .tip.default i{
+	background: url(../images/default.png) no-repeat center center;
+}
+.regsiter-box .tip.default span{
+	color:#ccc;
+}
+/*----错误提示样式----*/
+.regsiter-box .tip.error i{
+	background: url(../images/error.png) no-repeat center center;
+}
+.regsiter-box .tip.error span{
+	color:red;
+}
+/*----密码为弱示样式----*/
+.regsiter-box .tip.ruo i{
+	background: url(../images/ruo.png) no-repeat center center;
+}
+.regsiter-box .tip.ruo span{
+	color:#ccc;
+}
+/*----密码为中示样式----*/
+.regsiter-box .tip.zhong i{
+	background: url(../images/zhong.png) no-repeat center center;
+}
+.regsiter-box .tip.zhong span{
+	color:#ccc;
+}
+/*----密码为强示样式----*/
+.regsiter-box .tip.qiang i{
+	background: url(../images/qiang.png) no-repeat center center;
+}
+.regsiter-box .tip.qiang span{
+	color:#ccc;
+}
+/*---------验证码样式----------*/
+.regsiter-box.yzm{
+	position: relative;
+}
+.regsiter-box.yzm .box{
+	width:250px;
+	position: static;
+}
+.regsiter-box.yzm .box input{
+	width:100px;
+}
+.regsiter-box.yzm .box a{
+	display: block;
+	width:140px;
+	font:bold 24px/50px "宋体";
+	color:#fff;
+	background: #000;
+	position: absolute;
+	top:0;
+	right:5px;
+	text-align: center;
+}
+.regsiter-box.yzm .box.right i{
+	width:20px;
+	height: 20px;
+	background: url(../images/right.png) no-repeat center center;
+	position: absolute;
+	top:35%;
+	margin-top:-10px;
+	left:230px;
+}
+
+/*---------协议样式----------*/
+.regsiter-box.xieyi{
+	width:100%;
+	height: 20px;
+}
+.regsiter-box.xieyi .box{
+	line-height: normal;
+	padding: 0;
+	border: none;
+	height: 20px;
+}
+.regsiter-box.xieyi .box.error{
+	line-height: normal;
+	padding: 0;
+	border: 1px solid red;
+}
+.regsiter-box.xieyi .box input{
+	width: auto;
+}
+
+/*----按钮样式------*/
+.regsiter button{
+	width:400px;
+	height:40px;
+	background:#c21f1f;
+	font: bold 22px/40px "微软雅黑";
+	color:#fff;
+}
+.regsiter button:hover{
+	background: #c21f1f;
+}

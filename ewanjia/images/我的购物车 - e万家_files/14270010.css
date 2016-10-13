@@ -1,0 +1,211 @@
+.delivery {
+    width: 100%;
+    float: left;
+    background-color: #fff;
+    line-height: 45px;
+    height: 45px;
+    font-size: 14px;
+}
+
+.delivery .totalAmount {
+    float: left;
+    margin-left: 25px;
+    font-size: 16px;
+    color: #fb000a;
+    font-weight: bold;
+}
+
+.dt_lins.region {
+    line-height: 45px;
+    float: right;
+}
+
+.dt_lins.region .title {
+    float: left;
+    padding: 0 0 0 15px;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    background-color: #fff;
+}
+
+.dt_lins.region .region_list {
+    float: left;
+    z-index: 10;
+    background-color: #fff;
+    border: 1px solid #d1d1d1;
+    line-height: 30px;
+    margin: 6px 20px 0 10px;
+    position: relative;
+}
+
+.dt_lins.region .region_list .title {
+    float: left;
+    padding: 0 0 0 15px;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    background-color: #fff;
+}
+
+.dt_lins.region .region_list .title .cnt {
+    float: left;
+}
+
+.dt_lins.region .region_list .title .ico {
+    border-left: 1px solid #ddd;
+    color: #999;
+    float: right;
+    font-size: 9px;
+    height: 20px;
+    line-height: 15px;
+    margin: 4px 0 0 20px;
+    padding: 0 9px;
+}
+
+.dt_lins.region .region_list .title .ico .ico-arrow {
+    display: inline-block;
+    background: url("http://image2.ewj.com/2016/7/6/14250006.png") no-repeat;
+    width: 10px;
+    height: 10px;
+    margin: 6px 0 0 0;
+}
+
+/*.dt_lins.region .region_list .region_pop {
+    position: absolute;
+    left: -217px;
+    top: 29px;
+    width: 450px;
+    padding: 10px 0;
+    border: 1px solid #d1d1d1;
+    background-color: #fff;
+    box-shadow: 0 0 5px #d1d1d1;
+    display: none;
+}*/
+.dt_lins.region .region_list .region_pop {
+    position: absolute;
+    right: -31px;
+    top: 29px;
+    width: 450px;
+    padding: 10px 0;
+    border: 1px solid #d1d1d1;
+    background-color: #fff;
+    box-shadow: 0 0 5px #d1d1d1;
+    display: none;
+}
+
+.dt_lins.region .region_list .region_pop .region_pop_nav {
+    float: left;
+    width: 435px;
+    position: relative;
+    padding: 0 0 0 15px;
+}
+
+.dt_lins.region .region_list .region_pop .region_pop_nav > li {
+    float: left;
+    font-size: 14px;
+    color: #777;
+    font-weight: bold;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.dt_lins.region .region_list .region_pop .region_pop_nav > li > .tt {
+    padding: 0 10px;
+    border: solid #777;
+    border-width: 1px 1px 0;
+    float: left;
+    height: 25px;
+    line-height: 25px;
+}
+
+.dt_lins.region .region_list .region_pop .region_pop_nav > li.active > .tt {
+    background-color: #fff;
+    position: relative;
+    z-index: 2;
+    border: #72b3f6 1px solid;
+    border-bottom: #fff 1px solid;
+}
+
+.dt_lins.region .region_list .region_pop .region_pop_nav > li > .line {
+    position: absolute;
+    top: 26px;
+    height: 1px;
+    width: 100%;
+    left: 0;
+    background-color: #72b3f6;
+}
+
+.dt_lins.region .region_list .region_pop .region_pop_nav > li.active {
+    color: #72b3f6;
+}
+
+.dt_lins.region .region_list .region_pop .region_pop_nav > li .ico {
+    float: left;
+    font-size: 5px;
+    margin: 8px 0 0 5px;
+    color: #999;
+    display: inline-block;
+    background: url("http://image2.ewj.com/2016/7/6/14250006.png") no-repeat;
+    width: 10px;
+    height: 10px;
+}
+
+.dt_lins.region .region_list .region_pop .region_pop_nav > li.active .ico {
+    background: url("http://image2.ewj.com/2016/7/6/14250006.png") no-repeat 0 -10px;
+}
+
+.dt_lins.region .region_list .region_pop .region_pop_nav_list {
+    /*width:100%;*/
+    float: left;
+    margin-top: 10px;
+    padding: 0 0 0 30px;
+    overflow: hidden;
+}
+
+.dt_lins.region .region_list .region_pop .region_pop_nav_list > li {
+    float: left;
+    width: 100%;
+    display: none;
+}
+
+.dt_lins.region .region_list .region_pop .region_pop_nav_list > li > a {
+    float: left;
+    width: 95px;
+    white-space: nowrap;
+    color: #777;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.dt_lins.region .region_list .region_pop .region_pop_nav_list > li > a.another {
+    width: 190px;
+}
+
+.dt_lins.region .region_list .region_pop .region_pop_nav_list > li > a:hover {
+    color: #72b3f6;
+}
+
+.dt_lins.region .region_list .region_pop .region_pop_nav_list > li.active {
+    display: block;
+}
+
+.store-prompt {
+    float: left;
+    color: #333;
+    font-size: 14px;
+    margin: 0 0 0 12px;
+}
+
+.out-of-stock123 {
+    position: absolute;
+    top: 195px;
+    width: 205px;
+    padding: 0 0 0 15px;
+    height: 25px;
+    line-height: 25px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.4);
+    font-size: 14px;
+
+}  

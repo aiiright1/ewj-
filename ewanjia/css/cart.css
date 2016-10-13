@@ -1,0 +1,558 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0; padding:0;}
+body{font-size:12px; font-family: "微软雅黑","Arial Narrow";background: #F5F5F5;}
+a{text-decoration:none;} 
+ul,li{list-style:none;}
+img{border:0;} 
+.header1,.centern,.bottom-bottom,.zongji{width:1190px;margin:0 auto;}
+#header{height: 124px;
+    background: url(http://image1.ewj.com/2015/2/2/50393.png) repeat-x;
+    box-shadow: 0 0 10px rgba(9, 2, 4, .12);
+    position: relative;
+    z-index: 100;}
+.header1{
+position: relative;
+    height: 180px;
+    z-index: 1000;
+    
+}
+.siteNav {
+    display: inline-block;
+    width: 100%;
+    padding-top: 8px;
+    position: relative;
+    z-index: 3;
+}
+.siteNavCityChoose {
+    color: #666;
+    float: left;
+    font-size: 14px;
+    margin: -11px -10px -10px -10px;
+    padding: 10px;
+    transition: all 0.5s ease;
+    position: relative;
+}
+.siteNavCityChoose .title {
+    float: left;
+    white-space: nowrap;
+    padding-right: 15px;
+    background: url(http://image2.ewj.com/2015/2/2/50420.png) no-repeat right center;
+}
+.siteNavLogin {
+    float: left;
+    font-size: 12px;
+    color: #666;
+    margin-left: 25px;
+    overflow: hidden;
+}
+.siteNavLogin a {
+    color: #666;
+    padding-right: 20px;
+    margin: 0 -1px 0 20px;
+    display: inline-block;
+    border-right: 1px solid #666;
+    cursor: pointer;
+}
+.colore14041 {
+    color: #e14041;
+}
+.siteNavLogin a {
+    color: #666;
+    padding-right: 20px;
+    margin: 0 -1px 0 20px;
+    display: inline-block;
+    border-right: 1px solid #666;
+    cursor: pointer;
+}
+.siteNavEntry {
+    float: right;
+    font-size: 12px;
+    overflow: hidden;
+    margin-right: -12px;
+}
+.siteNavEntry a {
+    border-left: 1px solid #666;
+    color: #666;
+    display: inline-block;
+    line-height: 13px;
+    margin: 2px 20px 0 -1px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.headerBody {
+    display: inline-block;
+    left: 0;
+    padding-top: 3px;
+    width: 100%;
+    height: 99px;
+    position: relative;
+}
+.headerLogo {
+    width: 341px;
+    height: 71px;
+    background: url(../images/logo.jpg) no-repeat 0 0;
+    float: left;
+}
+.headerShoppingStep {
+    position: relative;
+    float: right;
+    margin-top: 28px;
+}
+.headerShoppingStep > li {
+    float: left;
+    white-space: nowrap;
+    position: relative;
+}
+
+.headerShoppingStep > li.active .line {
+    background-color: #79b235;
+}
+.headerShoppingStep > li > .line {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #d1d1d1;
+}
+.headerShoppingStep > li.active .radius {
+    background-position: 0 0;
+}
+.headerShoppingStep > li > .radius {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: -14px;
+    left: 50%;
+    margin-left: -14px;
+    background: url(http://image1.ewj.com/2015/2/2/50461.png) no-repeat 0 -28px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    line-height: 28px;
+}
+.headerShoppingStep > li.active .title {
+    color: #79b235;
+}
+.headerShoppingStep > li > .title {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+    min-width: 175px;
+    float: left;
+    text-align: center;
+}
+.backededed {
+    background-color: #ededed;
+    display: inline-block;
+    width: 100%;
+}
+.center{
+
+width: 1190px;
+    margin: 0 auto;
+}
+.product > .mani_cat_but {
+    width: 100%;
+    float: left;
+    background-color: #fff;
+    line-height: 45px;
+    height: 45px;
+    margin: 38px 0 20px 0;
+}
+.product > .mani_cat_but .title {
+    float: left;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #333;
+}
+.product > .mani_cat_but .but {
+    float: right;
+    margin-right: 20px;
+    font-size: 14px;
+    color: #aaa;
+    cursor: pointer;
+}
+.cartEmptyTips {
+   padding: 94px 0 65px 330px;
+   width:766px;
+   display:none;
+ 
+}
+.cartEmptyTips.active{
+  display:block;
+}
+.fl {
+    float: left;
+}
+.ml35 {
+    margin-left: 35px;
+}
+.mt5 {
+    margin-top: 5px;
+}
+.c_red {
+    color: #e14041;
+}
+.f18 {
+    font-size: 18px;
+}
+.mt5 {
+    margin-top: 5px;
+}
+.f14 {
+    font-size: 14px;
+}
+.c999 {
+    color: #999;
+}
+.mt25 {
+    margin-top: 25px;
+}
+.cartEmptyTips .btnDefault {
+    background: url("http://image1.ewj.com/2015/2/2/50365.jpg") repeat-x;
+}
+.cartEmptyTips .btn {
+    height: 35px;
+    line-height: 35px;
+    padding: 0 30px;
+    font-size: 16px;
+    color: #333;
+}
+.bottom-bottom{
+	width: 100%;
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    padding: 15px 0 50px;
+}
+.bottom-bottom .bottom-left{
+	float: left;
+	margin-left:170px;
+}
+.bottom-bottom a{
+	color: #333;
+    cursor: pointer;
+    }
+.bottom-bottom .split{
+   	
+    margin: 0 14px;
+
+ }
+ .bottom-bottom .copyright {
+    color: #848484;
+    font-size: 16px;
+    margin: 0 0 0 60px;
+}
+.product > .datles_table {
+    width: 100%;
+    float: left;
+    margin: 15px 0;
+}
+.delivery {
+    width: 100%;
+    float: left;
+    background-color: #fff;
+    line-height: 45px;
+    height: 45px;
+    font-size: 14px;
+}
+.delivery .totalAmount {
+    float: left;
+    margin-left: 25px;
+    font-size: 16px;
+    color: #fb000a;
+    font-weight: bold;
+}
+.product > .datles_table > .th {
+    background-color: #fff9f9;
+}
+.product > .datles_table > .th {
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #ededed;
+    background-color: #fafafa;
+    line-height: 45px;
+    /* text-indent: 15px; */
+}
+.product > .datles_table > .th .ld1 {
+    text-indent: 0;
+}
+.product > .datles_table .ld1 {
+    width: 130px;
+    margin-left: 25px;
+    float: left;
+    color: #333;
+    font-size: 14px;
+}
+.product > .datles_table .ld1 .checkbox {
+    vertical-align: baseline;
+    position: relative;
+    top: 2px;
+}
+.checkbox {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    line-height: 13px;
+    vertical-align: middle;
+    margin-right: 10px;
+    cursor: pointer;
+    background: #fff;
+}
+.checkbox.active i {
+    background: url("http://image1.ewj.com/2015/2/2/50377.png") no-repeat center center;
+}
+.checkbox i {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    vertical-align: top!important;
+    border: 1px solid #cfcfcf;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.product > .datles_table .th .ld2 {
+    width: 249px;
+    padding: 0 0 0 16px;
+    text-align: center;
+}
+.product > .datles_table .ld1, .product > .datles_table .ld2, .product > .datles_table .ld3, .product > .datles_table .ld4, .product > .datles_table .ld5, .product > .datles_table .ld6, .product > .datles_table .ld7, .product > .datles_table .ld8 {
+    float: left;
+    color: #333;
+    font-size: 14px;
+}
+
+.product > .datles_table .th .ld3 {
+    width: 185px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+
+.product > .datles_table .th .ld4 {
+    width: 113px;
+    text-align: center;
+}
+
+
+.product > .datles_table .th .ld6 {
+    width: 138px;
+    margin-left: 17px;
+    text-align: center;
+}
+
+
+.product > .datles_table .th .ld7 {
+    width: 160px;
+    text-align: center;
+}
+
+
+.product > .datles_table .th .ld8 {
+    padding: 0 0 0 7px;
+}
+
+.product > .datles_table .ld8 {
+    width: 140px;
+}
+.product > .datles_table > #th1 {
+    border-bottom: 0;
+}
+.product > .datles_table > #th1 {
+    width: 100%;
+    float: left;
+    background-color: #fff;
+    border-bottom: 1px dashed #e4e4e4;
+}
+.product > .datles_table > #th1 .active {
+    background-color: #fff9f9;
+}
+.product > .datles_table > #th1 > li {
+    margin-bottom: 0;
+    border-bottom: 1px solid #e4e4e4;
+    /* margin: 0 0 0 70px; */
+}
+.product > .datles_table > #th1 > li {
+    float: left;
+    width: 100%;
+    margin-bottom: -1px;
+    padding: 10px 0;
+    line-height: 90px;
+    border-bottom: 1px dashed #e4e4e4;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.product > .datles_table .ld1 {
+    width: 130px;
+    margin-left: 25px;
+}
+.product > .datles_table > #th1 > li > .ld1 .checkbox {
+    float: left;
+    margin: 35px 0 0 0;
+}
+.product > .datles_table > #th1 .active {
+    background-color: #fff9f9;
+}
+.product > .datles_table .ld1 .checkbox {
+    vertical-align: baseline;
+    position: relative;
+    top: 2px;
+}
+.checkbox {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    line-height: 13px;
+    vertical-align: middle;
+    margin-right: 10px;
+    cursor: pointer;
+    background: #fff;
+}
+
+
+button, input {
+    outline: none;
+}
+/*.checkbox.active i {
+    background: url("http://image1.ewj.com/2015/2/2/50377.png") no-repeat center center;
+}*/
+.checkbox i {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    vertical-align: top!important;
+    border: none;
+   
+}
+
+.product > .datles_table > #th1 > li > .ld1 .img_view {
+    float: left;
+    margin-left: 24px;
+    width: 90px;
+    height: 90px;
+}
+
+
+.product > .datles_table > #th1 > li > .ld1 .img_view > img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.product > .datles_table .ld1, .product > .datles_table .ld2, .product > .datles_table .ld3, .product > .datles_table .ld4, .product > .datles_table .ld5, .product > .datles_table .ld6, .product > .datles_table .ld7, .product > .datles_table .ld8 {
+    float: left;
+    color: #333;
+    font-size: 14px;
+}
+.product > .datles_table > #th1 > li > .ld2 {
+    margin-left: 9px;
+}
+
+.product > .datles_table > #th1 > li > .ld2 > a {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 19px;
+    width: 245px;
+    word-break: break-all;
+}
+
+
+.product > .datles_table #th1 .ld2 {
+    width: 256px;
+}
+
+.product > .datles_table #th1 .ld3 {
+    width: 185px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.product > .datles_table > #th1 > li > .ld3 > span, .product > .datles_table > .ll > li .midde {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 19px;
+}
+
+
+.product > .datles_table #th1 .ld4 {
+    width: 113px;
+    text-align: center;
+}
+
+
+.product > .datles_table #th1 .ld6 {
+    width: 138px;
+    margin-left: 17px;
+    text-align: center;
+}
+
+
+.product > .datles_table > #th1 > li > .ld3 > span, .product > .datles_table > .ll > li .midde {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 19px;
+}
+
+
+
+
+
+.product > .datles_table > #th1 > li > .ld6 .quantity_txt {
+    border: 1px solid #d1d1d1;
+    float: left;
+    height: 28px;
+    line-height: 28px;
+    margin: 0 10px;
+    text-align: center;
+    width: 50px;
+}
+
+
+.product > .datles_table > #th1 > li > .ld6 .add, .product > .datles_table > #th1 > li > .ld6 .less {
+    background: url("http://image2.ewj.com/2015/2/2/50882.png") no-repeat scroll center center;
+    cursor: pointer;
+    float: left;
+    height: 30px;
+    text-align: center;
+    transition: all 1s ease-out 0s;
+    width: 12px;
+}
+
+.product > .datles_table > #th1 > li > .ld6 .less {
+    background-image: url("../images/jian.jpg");
+}
+.canDelivery {
+    font-size: 12px;
+    color: #999999;
+    display: inline-block;
+}
+
+
+.product > .datles_table > #th1 > li > .ld7 {
+    font-size: 18px;
+}
+
+.product > .datles_table #th1 .ld7 {
+    width: 160px;
+    text-align: center;
+}
+.product > .datles_table .ld8 {
+    width: 140px;
+}
+.product > .datles_table > #th1 > li .midde {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 19px;
+}
+.clear {
+    clear: both;
+}
+.zongji{width: 1190px;background:pink;}
+.zongji .total-price{text-align:center;height:30px;width:100px;margin-left:570px;float:left;color:#333;font-size:18px;line-height:30px;}
+.zongji .total-price i{font-style:normal;color:red;}
+.zongji a{float:right;display:block;width:100px;height:30px;background:red;color:#fff;margin-right:80px;text-align: center;line-height:30px;font-size:20px;}
